@@ -1,0 +1,71 @@
+{
+	"id": "bd69759bdff901244449490050d4f54d",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.15",
+	"solcLongVersion": "0.8.15+commit.e14f2714",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"structPractice/structPractice.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\n// compiler version must be greater than or equal to 0.8.13 and less than 0.9.0\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.15;\"\n--> structPractice/structPractice.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.15;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "structPractice/structPractice.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"structPractice/structPractice.sol": {
+				"ast": {
+					"absolutePath": "structPractice/structPractice.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "114:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doSOmeWork",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "doSOmeWork1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "doSOmeWork12",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"funtionDemo3/functask4.sol": "First"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"funtionDemo3/functask4.sol": {
+			"keccak256": "0x843e028fa3d66c887b4e3fca822e548a6447aa66ad20a6c397edfe142abef058",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3e775c91d51ca3bd7144fcb3661d2526e32a750b264a6ce686ea3a209920c997",
+				"dweb:/ipfs/QmdnMhCb64NCgoWSgaoJLnuB2diTqqdEST7pzk6KTEWY64"
+			]
+		}
+	},
+	"version": 1
+}

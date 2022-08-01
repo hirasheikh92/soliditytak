@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mappingPractice/mapping.sol": "Mapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mappingPractice/mapping.sol": {
+			"keccak256": "0x9e9683318dbacd79a94272b9b77ab2d3263c9d8f0e9253de31fb3920faa7aa77",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://05cf30859ab194a7fe1fea719203c079e215225703f3dc25a030dd9149532a05",
+				"dweb:/ipfs/QmTR6ZmJ7A2zbQaqJmMXmWmsDXDYX8ZniYSHkxVK97neAk"
+			]
+		}
+	},
+	"version": 1
+}

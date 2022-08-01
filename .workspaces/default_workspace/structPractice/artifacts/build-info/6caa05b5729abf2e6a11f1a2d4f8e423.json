@@ -1,0 +1,68 @@
+{
+	"id": "6caa05b5729abf2e6a11f1a2d4f8e423",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.15",
+	"solcLongVersion": "0.8.15+commit.e14f2714",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"structPractice/structPractice.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\n// compiler version must be greater than or equal to 0.8.13 and less than 0.9.0\r\npragma solidity ^0.8.0;\r\n\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"structPractice/structPractice.sol": {
+				"ast": {
+					"absolutePath": "structPractice/structPractice.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "114:23:0"
+						}
+					],
+					"src": "114:29:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

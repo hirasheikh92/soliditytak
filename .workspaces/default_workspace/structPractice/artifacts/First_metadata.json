@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "manageStruct2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "manageStuct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"structPractice/structPractice.sol": "First"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"structPractice/structPractice.sol": {
+			"keccak256": "0xa3549dcc1532bb01a155a164a25fd96363756df7c42991fbc494ba6a8a2af601",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ccb179d54466f8963ca30ceef19eca2af315d7701f38352eff77b4bc44c5f6b",
+				"dweb:/ipfs/QmX3w8b8HEh3aT4BqQpkLiwzUcxV3XnSrqNRiZJQXKyjcn"
+			]
+		}
+	},
+	"version": 1
+}

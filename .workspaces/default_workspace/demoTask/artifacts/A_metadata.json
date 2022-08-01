@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "f1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f4",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demoTask/stateVar.sol": "A"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demoTask/stateVar.sol": {
+			"keccak256": "0xe05bc6001ee26b99b811d55c4a753f6f0fea514fe92517fb2825fdc998416893",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ba74fe5f78ac65a6664a516da2c291a87fa39b50b61b9290f65bb74020d29d36",
+				"dweb:/ipfs/QmPfzAQrHyqZrJpmzpgiLZcixxkQaVZUY6TTNr72AjSAt4"
+			]
+		}
+	},
+	"version": 1
+}

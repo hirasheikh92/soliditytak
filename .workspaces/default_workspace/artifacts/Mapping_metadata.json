@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_xyz",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "testMapping",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice2.sol": "Mapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice2.sol": {
+			"keccak256": "0x49a7ed7b3c5c464b75fe00fb440f52abbcb5ad50f9d61ffba61e9c08c16efe32",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://770802a3a1c46ed646f48ffab9640f0afd71179bbc6c89d46514af06ca5e65e6",
+				"dweb:/ipfs/QmUufR6yumKXriQu1GqUYzf9Ru6gUifjQfbaZxj3rtug19"
+			]
+		}
+	},
+	"version": 1
+}

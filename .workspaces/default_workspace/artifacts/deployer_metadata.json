@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getdeployerAccount",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice2.sol": "deployer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice2.sol": {
+			"keccak256": "0xa76396c82665e8befee5cf4ac97442bbe1c290da84859b33816ec81b156b6c35",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1de3ed4658644a49fe26c34b29257d4f4e09b02dde69a69d09b89c7ee0153bc0",
+				"dweb:/ipfs/QmUYcKZz65nDPYii1NVJ8rCxiSGpywFezd9UXWhAh43WRF"
+			]
+		}
+	},
+	"version": 1
+}

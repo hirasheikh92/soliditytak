@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doSOmeWork",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"functionDemo/funcTask1.sol": "First"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"functionDemo/funcTask1.sol": {
+			"keccak256": "0x6079e2eedf1a390bd1271014d4ef76a686194fd930dbc86caad80f47a8263f10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58ccc93015fb83a051d21a29305e9c214c12dce59346cbe5f362def0768b42e0",
+				"dweb:/ipfs/QmNfCMkePQFn2FQYk76qgaSXWdBhDM1FHFSmtRuV32p17o"
+			]
+		}
+	},
+	"version": 1
+}
